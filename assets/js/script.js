@@ -1,3 +1,4 @@
+const cursor = document.querySelector('.cursor')
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
@@ -64,4 +65,10 @@ function whack(e){
     }, 800);
     scoreBoard.textContent = score;
 }
+
+window.addEventListener('mousemove', e => {
+    cursor.style.top = e.pageY + 'px'
+    cursor.style.left = e.pageX + 'px'
+})
+
 moles.forEach (mole => mole.addEventListener('click', whack));
