@@ -57,10 +57,10 @@ startButton.addEventListener('click', startGame);
 
 function whack(e){
     score++; 
-    this.style.backgroundImage = 'url(assets/images/sadchris.gif)';
+    this.style.backgroundImage = 'url("assets/images/sadchris.gif")';
     this.style.pointerEvents = 'none';
     setTimeout(() => {
-        this.style.backgroundImage = 'url(assets/images/chrisrock.png)';
+        this.style.backgroundImage = 'url("assets/images/chrisrock.png")';
         this.style.pointerEvents = 'all'
 
     }, 800);
