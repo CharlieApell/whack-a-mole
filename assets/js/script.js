@@ -1,10 +1,10 @@
-const cursor = document.querySelector('.cursor')
+const cursor = document.querySelector('.cursor');
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
-const sound = new Audio("assets/media/smash.mp3")
+const sound = new Audio("assets/media/smash.mp3");
 
 let lastHole;
 let timeUp = false;
@@ -28,7 +28,7 @@ function popOut(){
     setTimeout(function(){
         hole.classList.remove('up');
         if(!timeUp) popOut();
-    }, time)
+    }, time);
 }
 
 function startGame(){
@@ -61,16 +61,16 @@ function whack(e){
     this.style.pointerEvents = 'none';
     setTimeout(() => {
         this.style.backgroundImage = 'url("assets/images/chrisrock.png")';
-        this.style.pointerEvents = 'all'
+        this.style.pointerEvents = 'all';
 
     }, 800);
     scoreBoard.textContent = score;
-    sound.play()
+    sound.play();
 }
 
 window.addEventListener('mousemove', e => {
-    cursor.style.top = e.pageY + 'px'
-    cursor.style.left = e.pageX + 'px'
-})
+    cursor.style.top = e.pageY + 'px';
+    cursor.style.left = e.pageX + 'px';
+});
 
 moles.forEach (mole => mole.addEventListener('click', whack));
