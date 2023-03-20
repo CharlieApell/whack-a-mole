@@ -16,7 +16,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/assets/images/background.png);
+    background-image: url(../images/background.png);
     background-size: cover;
     overflow: hidden;
     cursor: none;
@@ -81,7 +81,7 @@ button:hover {
 .hole:after {
     content: '';
     display: block;
-    background-image: url(/assets/images/dirt1.png);
+    background-image: url(../images/dirt1.png);
     position: absolute;
     width: 100%;
     height: 70px;
@@ -91,7 +91,7 @@ button:hover {
 }
 
 .mole {
-    background-image: url(/assets/images/chrisrock.png);
+    background-image: url(../images/chrisrock.png);
     position: absolute;
     top: 100%;
     width: 100%;
@@ -119,7 +119,7 @@ button:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-image: url(/assets/images/willslap.png);
+    background-image: url(../images/willslap.png);
     background-size: 100% 100%;
     transform: translate(-50%, -50%);
     transition: transform .1s;
