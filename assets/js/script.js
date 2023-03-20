@@ -4,8 +4,8 @@ const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
-const sound = new Audio("../assets/media/smash.mp3")
-console.log(startButton);
+const sound = new Audio("assets/media/smash.mp3")
+
 let lastHole;
 let timeUp = false;
 let timeLimit = 20000;
@@ -57,10 +57,10 @@ startButton.addEventListener('click', startGame);
 
 function whack(e){
     score++; 
-    this.style.backgroundImage = 'url(../assets/images/sadchris.gif)';
+    this.style.backgroundImage = 'url(assets/images/sadchris.gif)';
     this.style.pointerEvents = 'none';
     setTimeout(() => {
-        this.style.backgroundImage = 'url(../assets/images/chrisrock.png)';
+        this.style.backgroundImage = 'url(assets/images/chrisrock.png)';
         this.style.pointerEvents = 'all'
 
     }, 800);
