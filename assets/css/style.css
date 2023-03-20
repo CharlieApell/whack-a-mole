@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 219, 112);
 }
 
 .wrapper {
@@ -69,7 +70,7 @@ button:hover {
 .game {
     width: 600px;
     height: 400px;
-    margin: 70px auto;
+    margin: 50px auto;
     z-index: 200;
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +100,7 @@ button:hover {
     top: 100%;
     width: 100%;
     height: 100%;
-    transition: 0.5s;
+    transition: 0.3s;
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -129,12 +130,12 @@ button:hover {
     pointer-events: none;
 }
 
-@media screen and (max-width: 390px) {
-    body {margin: 0 auto;}
+@media screen and (max-width: 420px) {
     .wrapper {width: 100%; height: 100%; background-position: center;}
-    .score {position: relative;}
-    .countdown {position: relative; top: 50px;}
-    .game {display: flex; flex-flow: wrap;}
+    .score {position: relative; clear: both;}
+    .countdown {position: relative; top: 75%;}
+    .game {width: 100%;}
     .mole.large {background-size: contain;}
     .mole.small {background-size: contain;}
+    .hole:after {bottom: -55px;}
   }

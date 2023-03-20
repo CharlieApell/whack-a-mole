@@ -22,7 +22,7 @@ function pickRandomHole(holes) {
     return hole;
 }
 function popOut(){
-    const time = Math.random() * 1300 + 600;
+    const time = Math.random() * 1200 + 400;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function(){
