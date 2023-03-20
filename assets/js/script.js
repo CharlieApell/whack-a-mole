@@ -4,7 +4,7 @@ const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
-const sound = new Audio("/assets/media/smash.mp3")
+const sound = new Audio("../assets/media/smash.mp3")
 console.log(startButton);
 let lastHole;
 let timeUp = false;
@@ -22,7 +22,7 @@ function pickRandomHole(holes) {
     return hole;
 }
 function popOut(){
-    const time = Math.random() * 1300 + 400;
+    const time = Math.random() * 1300 + 600;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function(){
@@ -57,7 +57,7 @@ startButton.addEventListener('click', startGame);
 
 function whack(e){
     score++; 
-    this.style.backgroundImage = 'url(../assets/images/chrisrock.png)';
+    this.style.backgroundImage = 'url(../assets/images/sadchris.gif)';
     this.style.pointerEvents = 'none';
     setTimeout(() => {
         this.style.backgroundImage = 'url(../assets/images/chrisrock.png)';
