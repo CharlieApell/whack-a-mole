@@ -8,11 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-}
-
 .wrapper {
     border: 3px solid black;
     width: 800px;
@@ -21,9 +16,10 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(/assets/images/background.png);
     background-size: cover;
     overflow: hidden;
+    cursor: none;
 }
 
 .score {
@@ -42,19 +38,20 @@ h1 {
     position: absolute;
     top: 490px;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    color: whitesmoke;
+    color: red;
 }
 
 button {
+    font-size: 25px;
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translate(-50%, 0);
     background: orange;
     color: white;
-    padding: 20px 50px;
+    padding: 10px 50px;
     border-radius: 5px;
     z-index: 200;
     cursor: pointer;
@@ -84,12 +81,12 @@ button:hover {
 .hole:after {
     content: '';
     display: block;
-    background-image: url(/assets/images/sand1.png);
+    background-image: url(/assets/images/dirt1.png);
     position: absolute;
     width: 100%;
     height: 70px;
     z-index: 2;
-    bottom: -30px;
+    bottom: -45px;
     background-size: contain;
 }
 
@@ -105,11 +102,11 @@ button:hover {
 }
 
 .mole.small {
-    background-size: 60%;
+    background-size: 50%;
 }
 
 .mole.large {
-    background-size: 80%;
+    background-size: 70%;
 }
 
 .hole.up .mole {
@@ -117,8 +114,8 @@ button:hover {
 }
 
 .cursor{
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -128,3 +125,8 @@ button:hover {
     transition: transform .1s;
     pointer-events: none;
 }
+
+@media screen and (max-width: 480px) {
+    body {align-items: center;}
+    .wrapper {width: auto; height: auto;}
+  }

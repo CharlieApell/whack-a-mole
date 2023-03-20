@@ -4,6 +4,7 @@ const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
+const sound = new Audio("assets/sound/smash.mp3")
 console.log(startButton);
 let lastHole;
 let timeUp = false;
@@ -64,6 +65,7 @@ function whack(e){
 
     }, 800);
     scoreBoard.textContent = score;
+    sound.play()
 }
 
 window.addEventListener('mousemove', e => {
