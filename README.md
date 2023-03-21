@@ -40,7 +40,7 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 ### Features Left to Implement
 
-- In the future i would like to expand this game with different gameplays,  
+- In the future i would like to expand this game with different gameplays and add different levels of difficulties.  
 
 ## Testing 
 
