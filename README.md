@@ -2,74 +2,45 @@
 
 Whack a Mole is a classic arcade game that was invented in 1976 by Aaron Fechter. The game consists of a cabinet with holes, and players use a mallet to hit toy moles that pop up randomly from the holes.
 
-This is a submission to the Code Institute Project Portfolio 2, the aim was to create a basic yet efficient website with well-implemented JavaScript, so i decided to make a "whack-a-mole"-game with a little twist, you place as Will Smith and you slap Chris Rock that pops up.
+This is a submission to the Code Institute Project Portfolio 2, the aim was to create a basic yet efficient website with well-implemented JavaScript, so i decided to make a "whack-a-mole"-game with a little twist, you play as Will Smith and you slap Chris Rock that pops up.
 The project was designed to be simple yet functional, making it a perfect opportunity to apply some of the **JavaScript** concepts covered in the course so far.
 
 The live website can be found [here](https://charlieapell.github.io/whack-a-mole/).
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/images/devices.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured at the top of the game, the header is integrated with the picture showing the name of the game "Whack-a-mole"
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Header](assets/images/header.png)
 
-- __The landing page image__
+- __The game-area__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The section where the action happens, small dirt piles where chris rock pops out.
+  - In the middle, the big white numbers are the score and the smaller numbers in red shows the time left.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Game-Area](assets/images/gamearea.png)
 
-- __Club Ethos Section__
+- __Buttons__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - At the bottom of the game-area you have two buttons, one to start the game and one that shows you some info and how to play.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Buttons](assets/images/bottom.png)
 
-- __Meetup Times section__
+- __The How to play__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see some information about the game and how to play it.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![How to](assets/images/howto.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- In the future i would like to expand this game with different gameplays,  
 
 ## Testing 
 
