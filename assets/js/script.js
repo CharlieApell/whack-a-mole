@@ -5,15 +5,17 @@ const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
 const sound = new Audio("assets/media/smash.mp3");
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 let lastHole;
 let timeUp = false;
 let timeLimit = 20000;
 let score = 0;
 let countdown;
+
+// Code to random pick a hole and not the same hole twice.
 
 function pickRandomHole(holes) {
     const randomHole = Math.floor(Math.random() * holes.length);
@@ -33,6 +35,8 @@ function popOut(){
         if(!timeUp) popOut();
     }, time);
 }
+
+// Start Game function/button.
 
 function startGame(){
     countdown = timeLimit/1000;
@@ -58,6 +62,8 @@ function startGame(){
 }
 startButton.addEventListener('click', startGame);
 
+// Whacks and points
+
 function whack(e){
     score++; 
     this.style.backgroundImage = 'url("assets/images/sadchris.gif")';
@@ -78,35 +84,37 @@ window.addEventListener('mousemove', e => {
 
 moles.forEach (mole => mole.addEventListener('click', whack));
 
+// The how to box and animation
+
 openModalButtons.forEach(button => {
     button.addEventListener('click', () => {
-      const modal = document.querySelector(button.dataset.modalTarget)
-      openModal(modal)
-    })
-  })
+      const modal = document.querySelector(button.dataset.modalTarget);
+      openModal(modal);
+    });
+  });
   
   overlay.addEventListener('click', () => {
-    const modals = document.querySelectorAll('.modal.active')
+    const modals = document.querySelectorAll('.modal.active');
     modals.forEach(modal => {
-      closeModal(modal)
-    })
-  })
+      closeModal(modal);
+    });
+  });
   
   closeModalButtons.forEach(button => {
     button.addEventListener('click', () => {
-      const modal = button.closest('.modal')
-      closeModal(modal)
-    })
-  })
+      const modal = button.closest('.modal');
+      closeModal(modal);
+    });
+  });
   
   function openModal(modal) {
-    if (modal == null) return
-    modal.classList.add('active')
-    overlay.classList.add('active')
+    if (modal == null) return;
+    modal.classList.add('active');
+    overlay.classList.add('active');
   }
   
   function closeModal(modal) {
-    if (modal == null) return
-    modal.classList.remove('active')
-    overlay.classList.remove('active')
+    if (modal == null) return;
+    modal.classList.remove('active');
+    overlay.classList.remove('active');
   }
