@@ -9,6 +9,11 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 ![Responsive Mockup](assets/images/devices.png)
 
+## Design
+
+### Wireframes
+![Balsamic](assets/images/PP2.png)
+
 ## Features 
 
 ### Existing Features
