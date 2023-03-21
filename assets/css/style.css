@@ -19,7 +19,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.webp);
     background-size: cover;
     overflow: hidden;
     cursor: none;
