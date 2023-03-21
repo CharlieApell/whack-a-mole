@@ -210,9 +210,4 @@ button:hover {
     .mole.large {background-size: contain;}
     .mole.small {background-size: contain;}
     .hole:after {bottom: -55px;}
-    [data-button-group] > div {
-
-        flex-direction: column;
-    
-    }
   }
