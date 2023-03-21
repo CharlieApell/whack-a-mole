@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-        <div class="wrapper">
+    <div class="wrapper">
             <div class="score">0</div>
             <div class="countdown">0</div>
-            <button class="startButton" id="start-button">Start!</button>
-            <button data-modal-target="#modal" id="modal-button">How to:</button>
+            <div class="buttons">
+                <button class="startButton" id="start-button">Start!</button>
+                <button data-modal-target="#modal" id="modal-button">How to:</button>
+            </div>
             <div class="modal" id="modal">
               <div class="modal-header">
                 <div class="title">How to play:</div>
@@ -25,7 +27,7 @@
                     Are you ready to show off your slapping skills as Will Smith and become the ultimate Whack-a-Mole champion? 
                     <br>
                     <br>
-                    Let's go!
+                    <h3>Let's go!</h3>
                 </p>
               </div>
             </div>
@@ -50,7 +52,7 @@
                     <div class="mole large"></div>
                 </div>
             </div>
-        </div>
+    </div>
         <div class="cursor"></div>
         <script src="assets/js/script.js"></script>
 </body>
