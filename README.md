@@ -28,14 +28,16 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 - __The game-area__
 
-  - The section where the action happens, small dirt piles where chris rock pops out.
-  - In the middle, the big white numbers are the score and the smaller numbers in red shows the time left.
+  - the JavaScript code chooses a random hole/dirt pile where Chris Rock pops out at a random time and random length of time.
+  - The big white numbers in the middle are points that the JavaScript code adds up for every time you hit Chris Rock.
+  - The smaller red numbers are the time left to play, when the time is up a message with "TIMES UP!" shows and if you press "Start!" 
+    again the clock starts over from 20 and counts down.
 
 ![Game-Area](assets/images/gamearea.png)
 
 - __Buttons__
 
-  - At the bottom of the game-area there are two buttons, one to start the game with and one for "how to" with a brief information about the game and how to play
+  - At the bottom of the game-area there are two buttons, one to start the game with and one for "how to" with a pop up-modal with brief information about the game and how to play
 
 ![Buttons](assets/images/bottom.png)
 
@@ -52,13 +54,14 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 ## Testing 
 
-- I tested that this page works in different browsers: Chrome, Firefox, and Safari.
+- I tested that the game works in different browsers: Chrome and Safari.
 
-- The page is responsive and contains all the functions across different screen sizes using the dev tools device toolbar.
+- The game is responsive and contains all the functions across different screen sizes using the dev tools device toolbar.
 
 - I confirmed that all of the content is readable and easy to understand.
 
-- I confirmed that the webpage are easy to read and accessible by running it through lighthouse in devtools
+- I confirmed that the webpage are easy to read and accessible by running it through lighthouse in devtools.
+
 ![lighthouse](assets/images/lighthouse.png)
 
 
