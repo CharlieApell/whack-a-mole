@@ -12,7 +12,9 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 ## Design
 
 ### Wireframes
+
 ![Balsamic](assets/images/PP2.png)
+
 
 ## Features 
 
@@ -47,6 +49,7 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 - In the future i would like to expand this game with different gameplays and add different levels of difficulties.  
 
+
 ## Testing 
 
 - I tested that this page works in different browsers: Chrome, Firefox, and Safari.
@@ -57,6 +60,7 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 - I confirmed that the webpage are easy to read and accesible by running it through lighthouse in devtools
 ![lighthouse](assets/images/lighthouse.png)
+
 
 ## Bugs
 
@@ -84,6 +88,7 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
   
   ![JSHint img](assets/images/JSHint.png)
 
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -92,6 +97,31 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found [here](https://charlieapell.github.io/whack-a-mole/)
+
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, Javascript
+
+### Frameworks, Libraries & Programs Used
+
+- Balsamiq - Used to create wireframes.
+
+- Gitpod - For version control.
+
+- Github - To save and store the files for the website.
+
+- Google Fonts - To import the fonts used on the website.
+
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+- [Tiny PNG](https://tinypng.com/) To compress images.
+
+- [Birme](https://www.birme.net/?target_width=640&target_height=480&no_resize=true&image_format=webp) To compress images in the webp format.
+
+- [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 
 ## Credits 
