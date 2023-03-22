@@ -35,19 +35,19 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 - __Buttons__
 
-  - At the bottom of the game-area you have two buttons, one to start the game and one that shows you some info and how to play.
+  - At the bottom of the game-area there are two buttons, one to start the game with and one for "how to" with a brief information about the game and how to play
 
 ![Buttons](assets/images/bottom.png)
 
 - __The How to play__
 
-  - This section will allow the user to see some information about the game and how to play it.
+  - This section allows the user to read about the game and how to play it.
 
 ![How to](assets/images/howto.png)
 
 ### Features Left to Implement
 
-- In the future i would like to expand this game with different gameplays and add different levels of difficulties.  
+- In the future I would like to expand this game with different gameplays and add different levels of difficulties.  
 
 
 ## Testing 
@@ -58,16 +58,16 @@ The live website can be found [here](https://charlieapell.github.io/whack-a-mole
 
 - I confirmed that all of the content is readable and easy to understand.
 
-- I confirmed that the webpage are easy to read and accesible by running it through lighthouse in devtools
+- I confirmed that the webpage are easy to read and accessible by running it through lighthouse in devtools
 ![lighthouse](assets/images/lighthouse.png)
 
 
 ## Bugs
 
 ### Solved Bugs
-- I had some trouble with when i deployed my project to Github Pages, nothing worked and it was because i had used absolute file paths.
+- I had some trouble when I deployed my project to Github Pages, nothing worked and it was because I had used absolute file paths.
 - I had some trouble with the media queries.
-- I wasn't happy with the Lighthouse result so i converted the background image from png to Webp to get a higher score in performance.
+- I wasn't happy with the Lighthouse result so I converted the background image from png to Webp to get a higher score in performance.
 
 ### Unfixed Bugs
 - No reports of bugs.
@@ -130,7 +130,7 @@ HTML, CSS, Javascript
 
 - I followed the tutorial from [Franks Laboratory](https://www.youtube.com/watch?v=RTb8icFiSfk&ab_channel=Frankslaboratory) and [Code with Ania Kubów](https://www.youtube.com/watch?v=rJU3tHLgb_c&t=1s&ab_channel=CodewithAniaKub%C3%B3w) for the layout of the game.
 - I watched [Web Dev Simplified](https://www.youtube.com/watch?v=MBaw_6cPmAw&ab_channel=WebDevSimplified) tutorial for the "how to"-pop up.
-- I watched [Angel Brace](https://www.youtube.com/watch?v=b20YueeXwZg&ab_channel=AngleBrace) tutorial for the cursor and soundeffect.
+- I watched [Angel Brace](https://www.youtube.com/watch?v=b20YueeXwZg&ab_channel=AngleBrace) tutorial for the cursor and sound effect.
 
 ### Media
 
